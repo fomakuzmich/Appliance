@@ -22,7 +22,7 @@ public class TxTFindApplianceDAO implements FindApplianceDAO {
 
 	private final String separator = File.separator;
 
-	private final String path = "src" + separator + "mafin" + separator + "resourse" + separator + "Appliance.txt";
+	private final String path = "src" + separator + "main" + separator + "resourse" + separator + "Appliance.txt";
 
 	public List<Appliance> find(Criteria criteria) throws DAOException {
 		ApplianceReader applianceReader = new ApplianceReader(path);
